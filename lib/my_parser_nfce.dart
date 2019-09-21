@@ -201,6 +201,7 @@ class MyParserNFceFactory {
 }
 
 Future initiate() async {
-  await MyParserNFceFactory('')
+  var nfce = await MyParserNFceFactory('')
       .make();
+  print(nfce);
 }
