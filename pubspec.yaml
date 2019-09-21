@@ -1,8 +1,8 @@
-name: MyParserNFce
+name: vitor_myparser_nfce
 description: Lib para download de NFc-e
-# version: 1.0.0
-# homepage: https://www.example.com
-# author: Vitor Oliveira <email@example.com>
+version: 1.0.1
+homepage: https://github.com/vitordm/Dart.MyParserNFce
+author: Vitor Oliveira <oliveira.vitor3@gmail.com>
 
 environment:
   sdk: '>=2.1.0 <3.0.0'
