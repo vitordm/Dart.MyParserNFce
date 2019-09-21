@@ -1,0 +1,18 @@
+name: MyParserNFce
+description: Lib para download de NFc-e
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: Vitor Oliveira <email@example.com>
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  intl: ^0.15.7
+  html: ^0.13.4+1
+  http: ^0.12.0+1
+  
+
+dev_dependencies:
+  pedantic: ^1.0.0
+  test: ^1.0.0
