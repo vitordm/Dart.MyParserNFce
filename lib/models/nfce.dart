@@ -43,6 +43,6 @@ class NFce {
         'formaPagamento': this.formaPagamento,
         'valorPago': this.valorPago,
         'comercio': comercio.toMap(),
-        'itens': itens.map((i) => i.toMap())
+        'itens': itens.map((i) => i.toMap()).toList()
       };
 }

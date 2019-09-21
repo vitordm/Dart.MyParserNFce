@@ -21,8 +21,6 @@ class MyParserNFceFactory {
     NFce nfce;
 
     try {
-//https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?p=43190293015006000547651050002491881655335326|2|1|1|732D89EA5E0D0AE85309C65C1974A54624C33C87
-
       var parameter = RegExp(r"\?p.*$").stringMatch(urlSefaz);
       final url =
           'https://www.sefaz.rs.gov.br/ASP/AAE_ROOT/NFE/SAT-WEB-NFE-NFC_QRCODE_1.asp' +
@@ -203,8 +201,6 @@ class MyParserNFceFactory {
 }
 
 Future initiate() async {
-  await MyParserNFceFactory(
-          'https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?p=43190293015006000547651050002491881655335326|2|1|1|732D89EA5E0D0AE85309C65C1974A54624C33C87')
+  await MyParserNFceFactory('')
       .make();
 }
-//library MyParserNFce;

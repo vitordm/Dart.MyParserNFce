@@ -8,7 +8,7 @@ class NFceComercio {
 
   factory NFceComercio.fromMap(Map<String, dynamic> map) => NFceComercio(
       razaoSocial: map['razao_social'],
-      cnpj: map['razao_social'],
+      cnpj: map['cnpj'],
       ie: map['ie'],
       endereco: map['endereco']);
 
