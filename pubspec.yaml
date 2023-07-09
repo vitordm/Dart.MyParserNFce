@@ -10,7 +10,7 @@ environment:
 dependencies:
   intl: ^0.15.7
   html: ^0.13.4+1
-  http: ^0.12.0+1
+  http: ^0.13.6
   
 
 dev_dependencies:
